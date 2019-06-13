@@ -1,0 +1,74 @@
+:root {
+
+
+/* Fonts */
+--font-primary: 'Open Sans';
+--font-secondary: 'Titillium Web';
+
+
+
+/* headings */
+--hd-line-height: 1.25;
+
+--hd-size-xxl: 48px;
+--hd-size-xl: 40px;
+--hd-size-lg: 32px;
+--hd-size-md: 24px;
+--hd-size-sm: 20px;
+--hd-size-xs: 18px;
+
+
+/* body copy */
+--bd-line-height: 1.5;
+
+--bd-size-xxl: 32px;
+--bd-size-xl: 24px;
+--bd-size-lg: 18px;
+--bd-size-md: 16px;
+--bd-size-sm: 14px;
+--bd-size-xs: 12px;
+
+}
+
+
+
+@media screen and (min-width: 720px) {
+	:root {	
+		
+	/* headings */
+	--hd-size-xxl: 56px;
+	--hd-size-xl: 48px;
+	--hd-size-lg: 40px;
+	--hd-size-md: 32px;
+	--hd-size-sm: 24px;
+	--hd-size-xs: 20px;
+	}
+
+}
+
+
+@media screen and (min-width: 992px) {
+	:root {	
+		
+	/* headings */
+	--hd-size-xxl: 64px;
+	--hd-size-xl: 56px;
+	--hd-size-lg: 48px;
+	--hd-size-md: 40px;
+	--hd-size-sm: 32px;
+	--hd-size-xs: 24px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

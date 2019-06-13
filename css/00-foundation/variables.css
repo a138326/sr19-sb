@@ -1,0 +1,77 @@
+:root {
+
+
+/* Primary Colours */
+--c01-light: #00DFED;
+--c01-dark: #001CB0;
+--c01-dark-02: #001275;
+
+
+/* Secondary Colours */ 
+--c02-yellow-light: #FFE344;
+--c02-yellow-dark: #F6A623;
+--c02-purple-light: #9D15FF;
+--c02-purple-dark: #6031A6;
+
+--c02-green-light: #4CD964;
+--c02-green-dark: #6031A6;
+--c02-pink-light: #F80EC5;
+--c02-pink-dark: #FD334C;
+
+
+/* Neutral Colours */
+--c03-gray-01: #2B2E31;
+--c03-gray-02: #6B6D77;
+--c03-gray-03: #A7A9B3;
+--c03-gray-04: #D6D9E0;
+--c03-gray-05: #EFF0F4;
+--c03-gray-06: #F9F9FB;
+--c03-gray-07: #FFFFFF;
+
+
+/* Spacing */
+--sp-01: 4px;
+--sp-02: 8px;
+--sp-03: 16px;
+--sp-04: 24px;
+--sp-05: 32px;
+--sp-06: 40px;
+--sp-07: 48px;
+--sp-08: 56px;
+--sp-09: 64px;
+--sp-10: 72px;
+--sp-11: 96px;
+--sp-12: 120px;
+ 
+
+ /* Shadow */
+--shadow-03: 0px 3px 10px 2px rgba(0,0,0,0.10);
+--shadow-04: 0px 6px 15px 4px rgba(0,0,0,0.15);
+
+
+ /* Border radius= */
+--radius-01: 4px;
+--radius-02: 8px;
+--radius-03: 12px;
+--radius-04: 16px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

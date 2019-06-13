@@ -1,0 +1,94 @@
+/*
+–––––––––––––––––––––––––––––––––––––––
+Import base styles
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+@import "../00-foundation/variables.css";
+@import "../00-foundation/var-grid.css";
+@import "../00-foundation/var-type.css";
+@import "../00-foundation/reset.css";
+
+@import "../01-objects/type.css";
+
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+Core
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+body {
+	background-color: var(--c03-gray-05);
+}
+
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+header
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+header {
+	height: 50px;
+	background-color: var(--c01-dark);
+}
+
+@media screen and (min-width: 992px) {
+	header {
+		height: 100px;
+		background-color: var(--c01-dark);
+	}
+}
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+Intro
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+#cart-intro {
+	padding: var(--sp-03) 0;
+}
+
+#cart-intro h1 {
+	font-size: var(--bd-size-md);
+	font-weight: 400;
+	text-align: center;
+	width: calc(100% - var(--sp-04));
+	margin: 0 auto;
+}
+
+
+@media screen and (min-width: 992px) {
+	#cart-intro {
+		padding: var(--sp-05) 0;;
+	}
+	
+	 #cart-intro h1 {
+		font-size: var(--hd-size-xs);
+		font-weight: 300;
+		max-width: 700px;
+		margin: 0 auto;
+	}
+}
+
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+Input sections – global styles
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+.input-sec {
+	background-color: white;
+	margin: 0 var(--sp-03);
+	padding: var(--sp-03);
+	border: 1px solid var(--c03-gray-05);
+}
+@media screen and (min-width: 992px) {
+	.input-sec {
+		margin: 0 var(--sp-05);
+		padding: var(--sp-05);
+		max-width: 
+	}
+}

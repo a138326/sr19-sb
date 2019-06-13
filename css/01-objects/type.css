@@ -1,0 +1,88 @@
+/*
+–––––––––––––––––––––––––––––––––––––––
+Headings
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+/* Line height */
+.hd-xxl, .hd-xl, .hd-lg, .hd-md, .hd-sm, .hd-xs {
+	line-height: var(--hd-line-height);
+}
+
+/* Font family and weights */
+.hd-xxl, .hd-xl {
+	font-family: var(--font-secondary);
+	font-weight: 300;
+}
+.hd-lg, .hd-md, .hd-sm, .hd-xs {
+	font-family: var(--font-primary);
+	font-weight: 300;
+}
+
+
+
+.hd-xxl {
+	font-size: var(--hd-size-xxl);
+}
+
+.hd-xl {
+	font-size: var(--hd-size-xl);
+}
+.hd-lg {
+	font-size: var(--hd-size-lg);
+}
+.hd-md {
+	font-size: var(--hd-size-md);
+}
+.hd-sm {
+	font-size: var(--hd-size-sm);
+	font-weight: 400;
+}
+.hd-xs {
+	font-size: var(--hd-size-xs);
+	font-weight: 600;
+}
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+Body copy
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+
+/* Line height */
+.bd-xxl, .bd-xl, .bd-lg, .bd-md, .bd-sm, .bd-xs {
+	line-height: var(--bd-line-height);
+}
+
+
+.bd-xxl, .bd-xl {
+	font-family: var(--font-primary);
+	font-weight: 300;
+}
+
+.bd-lg, .bd-md, .bd-sm, .bd-xs {
+	font-family: var(--font-primary);
+	font-weight: 400;
+}
+
+.bd-xxl {
+	font-size: var(--bd-size-xxl);
+}
+.bd-xl {
+	font-size: var(--bd-size-xl);
+}
+.bd-lg {
+	font-size: var(--bd-size-lg);
+}
+.bd-md {
+	font-size: var(--bd-size-md);
+}
+.bd-sm {
+	font-size: var(--bd-size-sm);
+}
+.bd-xs {
+	font-size: var(--bd-size-xs);
+}
+
+
+

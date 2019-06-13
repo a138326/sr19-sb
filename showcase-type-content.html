@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AGL DLS Showcase: Typography </title>
+
+<!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300, 400, 600, 700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700,900" rel="stylesheet">
+<!-- /fonts -->
+
+<!-- stylesheets -->
+    <link href="css/03-pages/showcase-type.css" rel="stylesheet">
+<!-- /stylesheets -->
+</head>
+
+
+<body class="">
+
+
+
+
+<section class="type-set-hd">
+	
+	<div class="hd-sm type-section-hd">Heading typography</div>
+	
+	<div class="type-set">
+		<h1 class="hd-xxl"><span class="hd-text">This is heading extra extra large - xxl</span></h1>
+	</div>
+	<div class="style-dec bd-xs bd-xs"></div>
+	
+	<div class="type-set">
+		<h2 class="hd-xl"><span class="hd-text">This is heading extra large - xl</span></h2>
+	</div>
+	<div class="style-dec bd-xs"></div>
+	
+	<div class="type-set">
+		<h3 class="hd-lg"><span class="hd-text">This is heading large - lg</span></h3>
+	</div>
+	<div class="style-dec bd-xs"></div>
+	
+	<div class="type-set">
+		<h4 class="hd-md"><span class="hd-text">This is heading medium - md</span></h4>
+	</div>
+	<div class="style-dec bd-xs"></div>
+	
+	<div class="type-set">
+		<h5 class="hd-sm"><span class="hd-text">This is heading small - sm</span></h5>
+	</div>
+	<div class="style-dec bd-xs"></div>
+	
+	<div class="type-set">
+		<h6 class="hd-xs"><span class="hd-text">This is heading extra small - xs</span></h6>
+	</div>
+	<div class="style-dec bd-xs"></div>
+</section>	
+
+
+<section class="type-set-bd">
+	
+	<div class="hd-sm type-section-hd">Body typography</div>
+	
+	<div class="type-set">
+		<p class="bd-xxl">Just enter your new address and move date and we'll take care of the rest. Get connected in less than 5 minutes and confirm your plan later.</p>
+	</div>
+	<div class="style-dec bd-xs bd-xs"></div>
+	
+	<div class="type-set">
+		<p class="bd-xl">Just enter your new address and move date and we'll take care of the rest. Get connected in less than 5 minutes and confirm your plan later.</p>
+	</div>
+	<div class="style-dec bd-xs bd-xs"></div>
+	
+	<div class="type-set">
+		<p class="bd-lg">Just enter your new address and move date and we'll take care of the rest. Get connected in less than 5 minutes and confirm your plan later.</p>
+	</div>
+	<div class="style-dec bd-xs bd-xs"></div>
+	
+	<div class="type-set">
+		<p class="bd-md">Just enter your new address and move date and we'll take care of the rest. Get connected in less than 5 minutes and confirm your plan later.</p>
+	</div>
+	<div class="style-dec bd-xs bd-xs"></div>
+	
+	<div class="type-set">
+		<p class="bd-sm">Just enter your new address and move date and we'll take care of the rest. Get connected in less than 5 minutes and confirm your plan later.</p>
+	</div>
+	<div class="style-dec bd-xs bd-xs"></div>
+	
+	<div class="type-set">
+		<p class="bd-xs">Just enter your new address and move date and we'll take care of the rest. Get connected in less than 5 minutes and confirm your plan later.</p>
+	</div>
+	<div class="style-dec bd-xs bd-xs"></div>
+	
+</section>
+		
+
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
+    
+    <!-- Disbale enable stylesheets -->
+    <script>
+	    
+
+
+		
+		
+		$('h1, h2, h3, h4, h5, h6, p').each(function() { 
+				var cssSize = $(this).css('font-size'); 
+				var cssLh = $(this).css('line-height');
+				var cssWeight = $(this).css('font-weight');	
+				var cssName = $(this).attr('class');
+				var cssFamily = $(this).css('font-family');	
+				var cssDesc = 
+				'<span class="css-name">'				+	cssName		+	'</span>' + 
+				'<span class="css-atr"> Size: ' 		+ 	cssSize		+	'</span>' + 
+				'<span class="css-atr"> Line height: '	+ 	cssLh 		+ 	'</span>' +
+				'<span class="css-atr">'				+	cssFamily	+ 	'</span>' +
+				'<span class="css-atr"> Weight: '		+	cssWeight	+ 	'</span>'
+				$(this).parent().next().html(cssDesc);
+		});	
+		
+		
+		$('.hd-text').each(function() { 
+				$(this).html('Moving has never been&nbsp;quicker');
+		});	
+		
+		
+
+			
+					
+		$( window ).resize(function() {
+			$('h1, h2, h3, h4, h5, h6, p').each(function() { 
+				var cssSize = $(this).css('font-size'); 
+				var cssLh = $(this).css('line-height');
+				var cssWeight = $(this).css('font-weight');	
+				var cssName = $(this).attr('class');
+				var cssFamily = $(this).css('font-family');	
+				var cssDesc = 
+				'<span class="css-name">'				+	cssName		+	'</span>' + 
+				'<span class="css-atr"> Size: ' 		+ 	cssSize		+	'</span>' + 
+				'<span class="css-atr"> Line height: '	+ 	cssLh 		+ 	'</span>' +
+				'<span class="css-atr">'				+	cssFamily	+ 	'</span>' +
+				'<span class="css-atr"> Weight: '		+	cssWeight	+ 	'</span>'
+				$(this).parent().next().html(cssDesc);
+		});	
+		
+		})
+
+
+	    
+
+		
+		
+		
+		
+		
+		
+		
+
+
+	   
+		
+
+
+	</script> 
+
+</body>
+  
+
+</html>

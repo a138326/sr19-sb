@@ -1,0 +1,93 @@
+/*
+–––––––––––––––––––––––––––––––––––––––
+Import base styles
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+@import "../00-foundation/variables.css";
+@import "../00-foundation/var-grid.css";
+@import "../00-foundation/var-type.css";
+@import "../00-foundation/reset.css";
+
+@import "../01-objects/type.css";
+
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+Core
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+
+html, body {
+	background-color: var(--c03-gray-05);
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+.links-showcase-wrapper.positive {
+	background-color: var(--c03-gray-07);
+}
+.links-showcase-wrapper.gray {
+	background-color: var(--c03-gray-05);
+}
+.links-showcase-wrapper.reverse {
+	background-color: var(--c03-gray-01);
+}
+
+.links-showcase {
+	max-width: 700px;
+	padding: var(--sp-08);
+	margin: var(--sp-08) auto;
+	margin-top: 0;
+}
+
+.bd-md {
+	margin-bottom: var(--sp-03);
+}
+.hd-md {
+	margin-bottom: var(--sp-05);
+}
+
+.links-showcase-wrapper.reverse p,
+.links-showcase-wrapper.reverse h1 {
+	color: #fff;
+}
+
+
+
+a {
+	color: var(--c01-dark);
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+a:hover {
+	color: #6677D0;
+	text-decoration: underline;
+}
+/*
+a:visited {
+	color: var(--c02-purple-light);
+}
+*/
+.reverse a {
+	color: var(--c01-light);
+}
+
+.reverse a:hover {
+	text-decoration: underline;
+		color: #99F2F8;
+}
+
+/*
+.reverse a:visited {
+	color: var(--c02-purple-light);
+	color: #D8A1FF;  40% light purple 
+}
+*/
+
+
+

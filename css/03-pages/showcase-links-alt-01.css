@@ -1,0 +1,150 @@
+/*
+–––––––––––––––––––––––––––––––––––––––
+Import base styles
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+@import "../00-foundation/variables.css";
+@import "../00-foundation/var-grid.css";
+@import "../00-foundation/var-type.css";
+@import "../00-foundation/reset.css";
+
+@import "../01-objects/type.css";
+
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+Core
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+
+html, body {
+	background-color: var(--c03-gray-05);
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+.links-showcase-wrapper.positive {
+	background-color: var(--c03-gray-07);
+}
+.links-showcase-wrapper.gray {
+	background-color: var(--c03-gray-05);
+}
+.links-showcase-wrapper.reverse {
+	background-color: var(--c03-gray-01);
+}
+
+.links-showcase {
+	max-width: 700px;
+	padding: var(--sp-08);
+	margin: var(--sp-08) auto;
+	margin-top: 0;
+}
+
+.bd-md {
+	margin-bottom: var(--sp-03);
+}
+.hd-md {
+	margin-bottom: var(--sp-05);
+}
+
+.links-showcase-wrapper.reverse p,
+.links-showcase-wrapper.reverse h1 {
+	color: #fff;
+}
+
+
+
+a {
+	color: var(--c01-dark);
+	color: #007DFF;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+a:hover {
+	color: var(--c01-dark);
+	text-decoration: underline;
+}
+/*
+a:visited {
+	color: var(--c02-purple-light);
+}
+*/
+.reverse a {
+	color: var(--c01-light);
+	color: #00D7FF;
+}
+
+.reverse a:hover {
+	text-decoration: underline;
+		color: #00FFFF;
+}
+
+/*
+.reverse a:visited {
+	color: var(--c02-purple-light);
+	color: #D8A1FF;  40% light purple 
+}
+*/
+
+
+
+
+
+
+a {
+    text-decoration: none;
+    padding-bottom: 4px;
+    position: relative;
+}
+
+a:hover {
+	text-decoration: none;
+}
+a:before, a:after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: var(--c01-dark);
+}
+
+a:before {
+    opacity: 0;
+    transform: translateY(-8px);
+    transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+}
+
+a:after {
+    opacity: 0;
+    transform: translateY(4px);
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
+
+a:hover:before, a:hover:after, a:focus:before, a:focus:after {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+a:hover:before, a:focus:before {
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
+
+a:hover:after, a:focus:after {
+    transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
+}
+
+.reverse a,
+.reverse a:hover {
+	text-decoration: none;
+}
+
+.reverse a:before, .reverse a:after {
+    background-color: var(--c01-light);
+}

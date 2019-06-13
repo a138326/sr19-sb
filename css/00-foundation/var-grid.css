@@ -1,0 +1,137 @@
+/*
+–––––––––––––––––––––––––––––––––––––––
+Extra small 
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+:root {
+
+
+/* Gutters */
+--gutter-outer: 16px;
+--gutter-inner: 16px;
+
+
+/* Container */
+--con-max-wdith: 100%;
+
+
+/* Columns */
+--grid-cols: 6;
+
+}
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+Small 
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+@media screen and (min-width: 420px) {
+	:root {	
+		
+	/* Gutters */
+	--gutter-outer: 16px;
+	--gutter-inner: 16px;
+	
+	
+	/* Container */
+	--con-max-wdith: 508px;
+	
+	
+	/* Columns */
+	--grid-cols: 6;
+	
+	}
+	
+	.grid {
+		grid-template-columns: repeat(var(--grid-cols), auto);
+	}
+
+}
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+Medium
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+@media screen and (min-width: 720px) {
+	:root {	
+		
+	/* Gutters */
+	--gutter-outer: 24px;
+	--gutter-inner: 24px;
+	
+	
+	/* Columns */
+	--grid-cols: 8;
+	
+	}
+	
+	.grid {
+		grid-template-columns: repeat(var(--grid-cols), auto);
+	}
+
+}
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+Large 
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+@media screen and (min-width: 992px) {
+	:root {	
+		
+	/* Gutters */
+	--gutter-outer: 32px;
+	--gutter-inner: 32px;
+	
+	
+	/* Container */
+	--con-max-wdith: 1280px;
+	
+	/* Columns */
+	--grid-cols: 12;
+	
+	}
+	
+	.grid {
+		grid-template-columns: repeat(var(--grid-cols), auto);
+	}
+	
+}
+
+.grid-xsm {
+	padding: 0 16px;
+	max-width: 420px;
+	margin: 20px auto;
+	height: 200px;
+	display: grid;
+	grid-template-columns:repeat(6, 1fr);
+	grid-column-gap: 16px;
+	background-color: var(--c03-gray-05);
+	border: 1px solid var(--c03-gray-02);
+}
+
+
+.col {
+	max-width: 100%; 
+	height: auto;
+	background-color: var(--c03-gray-04);
+}
+
+
+
+.grid-sm {
+	padding: 0 16px;
+	max-width: 508px;
+	grid-template-columns:repeat(6, 1fr);
+	grid-column-gap: 16px;
+}
+
+.grid-md {
+	padding: 0 24px;
+	max-width: 984px;
+	grid-template-columns:repeat(8, 1fr);
+	grid-column-gap: 24px;
+}
+
+
+
