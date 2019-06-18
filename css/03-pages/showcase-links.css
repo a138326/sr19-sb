@@ -36,12 +36,16 @@ html, body {
 .links-showcase-wrapper.reverse {
 	background-color: var(--c03-gray-01);
 }
-
+.links-showcase-wrapper.reverse-blue {
+	background-color: var(--c01-dark);
+}
+.links-showcase-wrapper.reverse-gray-light {
+	background-color: var(--c03-gray-02);
+}
 .links-showcase {
 	max-width: 700px;
-	padding: var(--sp-08);
-	margin: var(--sp-08) auto;
-	margin-top: 0;
+	padding: var(--sp-12) var(--sp-08);
+	margin: 0 auto;
 }
 
 .bd-md {
@@ -58,36 +62,44 @@ html, body {
 
 
 
+:root {
+	--link-static: var(--c01-dark);
+	--link-hover: #6677D0;
+	--link-visited: var(--c02-purple-light);
+	
+	--link-rev-static: var(--c01-light);
+	--link-rev-hover: #99F2F8;
+	--link-rev-visited: #D8A1FF;
+}
+
+
 a {
-	color: var(--c01-dark);
+	color: var(--link-static);
 	text-decoration: underline;
 	font-weight: 600;
 }
 
 a:hover {
-	color: #6677D0;
+	color: var(--link-hover);
 	text-decoration: underline;
 }
-/*
+
 a:visited {
-	color: var(--c02-purple-light);
+	color: var(--link-visited);
 }
-*/
+
 .reverse a {
-	color: var(--c01-light);
+	color: var(--link-rev-static);
 }
 
 .reverse a:hover {
 	text-decoration: underline;
-		color: #99F2F8;
+	color: var(--link-rev-hover);
+}
+.reverse a:visited {
+	color: var(--link-rev-visited);
 }
 
-/*
-.reverse a:visited {
-	color: var(--c02-purple-light);
-	color: #D8A1FF;  40% light purple 
-}
-*/
 
 
 
