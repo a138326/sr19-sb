@@ -1,0 +1,99 @@
+/*
+–––––––––––––––––––––––––––––––––––––––
+Import base styles
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+@import "../00-foundation/reset.css";
+@import "../00-foundation/variables.css";
+@import "../00-foundation/var-type.css";
+
+@import "../01-objects/type.css";
+
+body {
+	background-color: var(--c03-gray-05);
+}
+#ff-share-wrapper {
+	max-width: 375px;
+	padding: 24px;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+h1 {
+	font-size: var(--hd-size-sm);
+	font-family: var(--font-secondary);
+	margin-bottom: 24px;
+}
+
+.share-link {
+	font-family: var(--font-primary);
+	font-weight: 600;
+	line-height: 48px;
+	height: 48px;
+	vertical-align: middle;
+	width: 240px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 50px;
+	margin-bottom: 24px;
+}
+.share-link a {
+	color: black;
+}
+
+/* refernce*/
+.showcase-wrapper {
+	width: 992px;
+	margin: 0 auto;
+}
+.showcase-controls {
+	width: 100%;
+	background-color: var(--c03-gray-03);
+	padding: var(--sp-02);
+	text-align: center;
+	margin-bottom: var(--sp-08);
+}
+.type-section-hd {
+	margin-bottom: var(--sp-08);
+	margin-top: var(--sp-06);
+	color: var(--c01-dark);
+}
+.type-set-hd,
+.type-set-bd {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.type-set {
+	margin-top: var(--sp-09);	
+}
+.type-set-bd {
+	margin-top: var(--sp-12);	 
+}
+.type-set-hd {
+	margin-bottom: var(--sp-12);	 
+}
+.style-dec {
+	padding-top: var(--sp-03);
+	margin-top: var(--sp-05);
+	border-top: 1px solid var(--c03-gray-05);
+}
+.css-name {
+	padding: 2px 12px;
+	background-color: var(--c03-gray-05);
+	color: var(--c03-gray-03);
+	border-radius: 30px;
+	margin-right:16px;
+	font-weight: 600;
+}
+.css-atr {
+	margin-right: 16px;
+	color: var(--c03-gray-03);
+}
+
+
+#hd-content-iframe {
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: var(--sp-06);
+	margin: 0 auto;
+	height: 3000px;
+} 
